@@ -99,41 +99,4 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		</assets>
 	</extension>
 </addon>
-
-<addon id="script.module.echo" name="Echo Libraries" version="1.00.003" provider-name="Echo Coder">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.requests" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Forked from TK Norris Shared Module. Reusable Modules used by several of Echo's addons</summary>
-	</extension>
-</addon>
-
-<addon id="script.module.metahandler"
-     name="metahandler"
-     version="3.0.3"
-     provider-name="Eldorado, jsergio">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="script.module.myconnpy" version="1.1.6"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
-    <description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
-    <disclaimer lang="en"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
 </addons>
