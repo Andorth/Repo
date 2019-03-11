@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.Explora"
+       name="Explora"
+       version="1.3.1"
+       provider-name="Netai">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Documentales</summary>
+    <language>es</language>
+    <description lang="es">Todos los documentales en castellano, la videoteca que no deja de crecer ! ... Este addon requiere de plugin f4mTester de shani para funcionar.</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.Netai" name="[COLOR red]Netai[/COLOR] Repo" version="1.2.0" provider-name="Netai">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Netai-repo">
+		<info>https://raw.githubusercontent.com/Andorth/Repo/master/repositorio/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Andorth/Repo/master/repositorio/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Andorth/Repo/master/repositorio/</datadir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio Grupo Netai</summary>
+        <description>Soporte de los addon activos del grupo Netai y sus dependencias.</description>
+        <disclaimer>Estos addons son gratuitos no pagues por ellos.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
