@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.NotBuffer3" name="[COLOR orange] NotBuffer 3 [/COLOR]" version="5.0.1" provider-name="Netai">
+<addon id="plugin.program.NotBuffer3" name="[COLOR orange] NotBuffer 3 [/COLOR]" version="5.0.2" provider-name="Netai">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>	
 </requires>
