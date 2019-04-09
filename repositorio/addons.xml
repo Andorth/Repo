@@ -155,8 +155,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="script.mantenimiento"
        name="Mantenimiento de Kodi"
-       version="0.0.1"
-       provider-name="Netai/SchisM">
+       version="0.0.2"
+       provider-name="SchisM/Netai">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
