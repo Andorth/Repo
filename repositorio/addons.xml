@@ -26,6 +26,24 @@
 
 </addon>
 
+<addon id="plugin.program.Netai" name="NETAI [COLOR gold]WIZARDS[/COLOR]" version="1.1" provider-name="Netai">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Netai [COLOR gold]WIZARDS[/COLOR]</summary>
+    <description lang="en">Addon instalador de los wizards Netai para Kodi 17 y 18
+Fuente: https://netai.eu/netai
+Telegram: https://t.me/OficialNetai
+Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.program.NotBuffer3" name="[COLOR orange] NotBuffer 3 [/COLOR]" version="5.0.2" provider-name="Netai">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
