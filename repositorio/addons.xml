@@ -26,7 +26,7 @@
 
 </addon>
 
-<addon id="plugin.program.Netai" name="NETAI [COLOR gold]WIZARDS[/COLOR]" version="1.1" provider-name="Netai">
+<addon id="plugin.program.Netai" name="NETAI [COLOR gold]WIZARDS[/COLOR]" version="1.2" provider-name="Netai">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
