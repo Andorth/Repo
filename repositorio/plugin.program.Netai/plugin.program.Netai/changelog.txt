@@ -1,9 +1,0 @@
-v1.1 6/2/19
-- Corregidos fallos internos.
-- Cambio de repo kodileiawizard por repofamilyleia
-
-v1.0 31/1/19
-- Se puede instalar la Build en Kodi 18
-
-
-
