@@ -1,63 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.advancedsettings"
-       name="Easy Advanced Settings"
-       version="0.8.9"
-       provider-name="kinkin">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               	library="default.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>Create, view, edit and delete your advancedsettings.xml file in a user-friendly gui</summary>
-        <description>All settings follow the xbmc.org wiki[CR][CR]With this tool you can create your advanced settings directly from XBMC[CR][CR]If you don't know what a setting does, don't enable it!</description>
-        <platform>all</platform>
-        <language>en</language>
-        <license>GNU GENERAL PUBLIC LICENSE</license>
-        <forum></forum>
-        <website></website>
-        <source></source>
-        <email></email>
-    </extension>
-
-</addon>
-
-<addon id="plugin.program.favoritos-realstream" name="[COLOR pink]Favoritos[/COLOR] [COLOR gold]Real Stream[/COLOR]" version="1.0.5" provider-name="spoyser">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.metahandler" optional="true" />
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-
-  <extension point="xbmc.service" library="service.py" start="startup" />
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es"></summary>
-    <description lang="en">Addon Super favorites modificado para su uso con Real Stream addon. Ten clasificadas sus peliculas creando acceso directo a la misma para luego poderla reproducir. Agradecimentos a los creadores del Programa Addon Super Favorites.</description>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-
-    <website></website>
-    <source></source>
-    <email></email>
-  </extension>
-
-  <extension point="kodi.context.item" library="capture.py">
-      <item>
-        <label>30000</label>
-        <visible>true</visible>
-      </item>
-    </extension>
-</addon>
-
 <addon id="plugin.program.Netai" name="NETAI [COLOR gold]WIZARDS[/COLOR]" version="1.4" provider-name="Netai">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -236,28 +178,5 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 			<screenshot>resources/screenshot-05.jpg</screenshot>
 		</assets>
 	</extension>
-</addon>
-
-<addon id="script.mantenimiento"
-       name="Mantenimiento de Kodi"
-       version="0.0.2"
-       provider-name="SchisM/Netai">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
- 	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>executable</provides>
-	</extension>
-  <extension point="xbmc.service" library="service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>Mantenimiento</summary>
-    <description>Manten limpio tu media center</description>
-    <language></language>
-    <license></license>
-    <source></source>
-    <forum></forum>
-    <website></website>
-  </extension>
 </addon>
 </addons>
