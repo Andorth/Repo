@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.Netai" name="NETAI [COLOR gold]WIZARDS[/COLOR]" version="1.4" provider-name="Netai">
+<addon id="plugin.program.Netai" name="NETAI [COLOR gold]WIZARDS[/COLOR]" version="1.5" provider-name="Netai">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
