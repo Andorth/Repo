@@ -1,154 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="plugin.program.favoritos-realstream" name="[COLOR pink]Favoritos[/COLOR] [COLOR gold]Real Stream[/COLOR]" version="1.0.5" provider-name="spoyser">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.metahandler" optional="true" />
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-
-  <extension point="xbmc.service" library="service.py" start="startup" />
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es"></summary>
-    <description lang="en">Addon Super favorites modificado para su uso con Real Stream addon. Ten clasificadas sus peliculas creando acceso directo a la misma para luego poderla reproducir. Agradecimentos a los creadores del Programa Addon Super Favorites.</description>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-
-    <website></website>
-    <source></source>
-    <email></email>
-  </extension>
-
-  <extension point="kodi.context.item" library="capture.py">
-      <item>
-        <label>30000</label>
-        <visible>true</visible>
-      </item>
-    </extension>
-</addon>
-
-<addon id="plugin.program.Netai" name="NETAI [COLOR gold]WIZARDS[/COLOR]" version="1.6" provider-name="Netai">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Netai [COLOR gold]WIZARDS[/COLOR]</summary>
-    <description lang="en">Addon instalador de los wizards Netai para Kodi 17 y 18
-Fuente: https://netai.eu/netai
-Telegram: https://t.me/OficialNetai
-Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.program.NotBuffer4" name="[COLOR orange] NotBuffer 4 [/COLOR]" version="1.6" provider-name="Netai">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="plugin.program.advancedsettings" version="0.8.9"/>
-</requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-  <summary>NotBuffer 4</summary>
-
-  <description>
-  Configura el buffer y limpia tu Kodi.
-   + Incluidos ajustes de buffer antiguos.
-   + Incluidos ajustes de buffer optimizados para equipos viejos.
-   + incluido settins para Kodi 16,17,18.
-   + Reparado el test de velocidad de OOKLA.
-   + Agregados creditos al Autor de ADVSET - Chemai.
-   + Suprimidas Utilidades obsoletas.
-  </description>
-	  <platform>all</platform>
-	  <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-
-    </assets>
-    <license>GNU/GPL - v3</license>
-
-    <website>web</website>
-    <email>netaiaddons@gmail.com</email>
-    <source>https://netai.eu/netai</source>
-  </extension>
-</addon>
-
-<addon id="plugin.video.Explora"
-       name="Explora"
-       version="1.3.1"
-       provider-name="Netai">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es">Documentales</summary>
-    <language>es</language>
-    <description lang="es">Todos los documentales en castellano, la videoteca que no deja de crecer ! ... Este addon requiere de plugin f4mTester de shani para funcionar.</description>
-     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="repository.Netai" name="[COLOR red]Netai[/COLOR] Repo" version="1.2.1" provider-name="Netai">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository" name="Netai-repo">
-		<info>https://raw.githubusercontent.com/Andorth/Repo/master/repositorio/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Andorth/Repo/master/repositorio/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Andorth/Repo/master/repositorio/</datadir>
-	</extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Repositorio Grupo Netai</summary>
-        <description>Soporte de los addon activos del grupo Netai y sus dependencias.</description>
-        <disclaimer>Estos addons son gratuitos no pagues por ellos.</disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="repository.xbmchub" name="TVADDONS.CO Add-on Repository" version="3.0.0" provider-name="tvaddons">
-	<extension point="xbmc.addon.repository" name="TVADDONS.CO Add-on Repository">
-	<dir>
-		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-	</dir>
-
-    <dir>
-		<info compressed="false">https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml</info>
-		<checksum>https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/tvaddonsco/tva-release-repo/raw/master/</datadir>
-    </dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Unofficial Kodi Addons from TVADDONS.CO</summary>
-		<description>Unofficial Kodi Addons from the TVADDONS.CO Add-on Repository. Please visit www.tvaddons.co for support!
-
-Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
-         <disclaimer>TVADDONS.CO did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
-		<platform>all</platform>
-                <forum>https://www.tvaddons.co/forums</forum>
-                <website>https://www.tvaddons.co</website>
-	</extension>
-</addon>
-
 <addon id="service.subtitles.Realopensubtitles"
        name="RealOpenSubtitles"
        version="0.0.1"
@@ -199,7 +49,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	<description lang="tr">Her gün eklenen, pek çok dildeki binlerce film ve dizi altyazısı. Kaynağından ücretsiz indirme, API desteği ve milyonlarca kullanıcı.</description>
 	<description lang="uz">Film va TV Taglavhalari ko'p tillarda, minglab tarjima qilingan taglavhalar har kuni tizimga yuklanadi. Bepul resursdan yuklab oling, API qo'llaydi, millionlab foydalanuvchilar.</description>
 	<description lang="zh">多语种的电影及剧集字幕，每日更新千余条翻译好的字幕。免费下载，提供API接口，已拥有上百万的用户。</description>
-    <disclaimer>Users need to provide OpenSubtitles.org username and password in add-on configuration</disclaimer>
+    <disclaimer>Users need to provide OpenSubtitles.org username and password in add-on configuration</disclaimer>                                               
 	<news>
 v5.0.16 (2016-11-26) by opensubtitles
 - Changed descriptions, icons, fanart... (by opensubtitles)
@@ -212,15 +62,14 @@ v5.0.15 (2016-11-26) by amet
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <forum>https://forum.opensubtitles.org/viewtopic.php?f=8&amp;t=15847</forum>
     <website>http://www.opensubtitles.org</website>
-    <email>admin [at] opensubtitles {dot} org</email>
+    <email>admin [at] opensubtitles {dot} org</email>                                               
 	<assets>
 	    <icon>resources/media/os_logo_512x512.png</icon>
-	    <fanart>resources/media/os_fanart.jpg</fanart>
+	    <fanart>resources/media/os_fanart.jpg</fanart>    
 		<screenshot>resources/media/screenshot_1.jpg</screenshot>
 		<screenshot>resources/media/screenshot_2.jpg</screenshot>
-		<screenshot>resources/media/screenshot_3.jpg</screenshot>
+		<screenshot>resources/media/screenshot_3.jpg</screenshot>				
 	</assets>
-    <source>https://github.com/opensubtitles/service.subtitles.opensubtitles</source>
+    <source>https://github.com/opensubtitles/service.subtitles.opensubtitles</source>    
   </extension>
 </addon>
-</addons>
