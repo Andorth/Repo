@@ -108,7 +108,7 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
 
 <addon id="plugin.video.TDT-Spain"
        name="TDT SPAIN"
-       version="0.10"
+       version="0.11"
        provider-name="Magyc Team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
