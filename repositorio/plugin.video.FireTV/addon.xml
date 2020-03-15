@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.FireTV"
        name="Fire tv"
-       version="1.0.2"
+       version="1.0.3"
        provider-name="Netai">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -28,7 +28,8 @@
 		Basado en livestreamspro - Original script by shany.
 		Los canales mostrados se encuentran en internet, nosotros no alojamos dichos canales, ni los transmitimos. Solo damos acceso a los mismos.
 		Disfruta del contenido TV de España desde cualquier parte del mundo.
-		Algunos canales no se encuentran disponibles fuera del Territorio Español. Utilice una VPN Española.
+		Los canales estan ocultos por defecto, si en tu pais no es legal la visualizacion de estos canales por favor manten la configuracion por defecto.
+		(Algunos canales no se encuentran disponibles fuera del Territorio Español. Utilice una VPN Española.)
         
     </description>
 	    <platform>all</platform>
