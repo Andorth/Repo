@@ -106,23 +106,44 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.TDT-Spain"
-       name="TDT SPAIN"
-       version="0.12"
-       provider-name="Magyc Team">
+<addon id="plugin.video.FireTV"
+       name="Fire tv"
+       version="1.0.1"
+       provider-name="Netai">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="plugin.video.f4mTester"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.resolveurl" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+	<import addon="inputstream.adaptive" optional="true"/>
   </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="tv.py">
-        <provides>video</provides>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
   </extension>
+
+
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">TDT SPAIN</summary>
-    <language>es</language>
-    <description lang="en">Visualiza contenido de Television IPTV España procedente de internet. Requires F4M Tester</description>
-     <platform>all</platform>
+    <summary>Fire TV</summary>
+    <description>
+
+		Basado en livestreamspro - Original script by shany.
+		Los canales mostrados se encuentran en internet, nosotros no alojamos dichos canales, ni los transmitimos. Solo damos acceso a los mismos.
+		Disfruta del contenido TV de España desde cualquier parte del mundo.
+		Algunos canales no se encuentran disponibles fuera del Territorio Español. Utilice una VPN Española.
+
+    </description>
+	    <platform>all</platform>
+	  <assets>
+		<icon>icon.gif</icon>
+		<fanart>fanart.jpg</fanart>
+	  </assets>
+
   </extension>
 </addon>
 
