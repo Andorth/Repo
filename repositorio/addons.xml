@@ -108,7 +108,7 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
 
 <addon id="plugin.video.FireTV"
        name="Fire tv"
-       version="1.0.5"
+       version="1.0.6"
        provider-name="Netai">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
