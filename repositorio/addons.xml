@@ -86,8 +86,8 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
 </addon>
 
 <addon id="plugin.video.DailySport"
-       name="Daily Sport"
-       version="1.0.2"
+       name="[COLOR orange]Daily Sport[/COLOR]"
+       version="1.0.1"
        provider-name="Netai,Iberika">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
