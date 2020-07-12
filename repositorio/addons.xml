@@ -86,9 +86,9 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
 </addon>
 
 <addon id="plugin.video.DailySport"
-       name="Grupo Netai,Iberika"
-       version="1.0.1"
-       provider-name="Netai">
+       name="Daily Sport"
+       version="1.0.2"
+       provider-name="Netai,Iberika">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
