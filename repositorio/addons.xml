@@ -85,30 +85,9 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.Explora"
-       name="Explora"
-       version="1.3.1"
-       provider-name="Netai">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es">Documentales</summary>
-    <language>es</language>
-    <description lang="es">Todos los documentales en castellano, la videoteca que no deja de crecer ! ... Este addon requiere de plugin f4mTester de shani para funcionar.</description>
-     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.FireTV"
-       name="Fire tv"
-       version="1.0.6"
+<addon id="plugin.video.DailySport"
+       name="Grupo Netai,Iberika"
+       version="1.0.1"
        provider-name="Netai">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -129,22 +108,38 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
 
 
   <extension point="xbmc.addon.metadata">
-    <summary>Fire TV</summary>
+    <summary>Daily Sport</summary>
     <description>
 
-		Basado en livestreamspro - Original script by shany.
-		Los canales mostrados se encuentran en internet, nosotros no alojamos dichos canales, ni los transmitimos. Solo damos acceso a los mismos.
-		Disfruta del contenido TV de España desde cualquier parte del mundo.
-		Los canales estan ocultos por defecto, si en tu pais no es legal la visualizacion de estos canales por favor manten la configuracion por defecto.
-		(Algunos canales no se encuentran disponibles fuera del Territorio Español. Utilice una VPN Española.)
-
+	Vive todo el deporte en tu mediacenter via esta web!
     </description>
 	    <platform>all</platform>
 	  <assets>
-		<icon>icon.gif</icon>
+		<icon>icon.png</icon>
 		<fanart>fanart.jpg</fanart>
 	  </assets>
 
+  </extension>
+</addon>
+
+<addon id="plugin.video.Explora"
+       name="Explora"
+       version="1.3.1"
+       provider-name="Netai">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Documentales</summary>
+    <language>es</language>
+    <description lang="es">Todos los documentales en castellano, la videoteca que no deja de crecer ! ... Este addon requiere de plugin f4mTester de shani para funcionar.</description>
+     <platform>all</platform>
   </extension>
 </addon>
 
