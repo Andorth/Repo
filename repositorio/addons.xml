@@ -85,10 +85,31 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.DailySport"
-       name="[COLOR orange]Daily Sport[/COLOR]"
-       version="1.0.4"
-       provider-name="Daily Sport">
+<addon id="plugin.video.Explora"
+       name="Explora"
+       version="1.3.1"
+       provider-name="Netai">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Documentales</summary>
+    <language>es</language>
+    <description lang="es">Todos los documentales en castellano, la videoteca que no deja de crecer ! ... Este addon requiere de plugin f4mTester de shani para funcionar.</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Sport.center"
+       name="[COLOR orange]Sport Center[/COLOR]"
+       version="1.0.1"
+       provider-name="Iberika, Netai, DaQueenQueen">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -108,10 +129,10 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
 
 
   <extension point="xbmc.addon.metadata">
-    <summary>Daily Sport</summary>
+    <summary>Sport Center</summary>
     <description>
 
-	Vive todo el deporte en tu mediacenter via esta web!
+	Vive todo el deporte en tu mediacenter!
     </description>
 	    <platform>all</platform>
 	  <assets>
@@ -119,27 +140,6 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
 		<fanart>fanart.jpg</fanart>
 	  </assets>
 
-  </extension>
-</addon>
-
-<addon id="plugin.video.Explora"
-       name="Explora"
-       version="1.3.1"
-       provider-name="Netai">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es">Documentales</summary>
-    <language>es</language>
-    <description lang="es">Todos los documentales en castellano, la videoteca que no deja de crecer ! ... Este addon requiere de plugin f4mTester de shani para funcionar.</description>
-     <platform>all</platform>
   </extension>
 </addon>
 

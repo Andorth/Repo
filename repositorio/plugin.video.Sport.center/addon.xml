@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.DailySport"
-       name="[COLOR orange]Daily Sport[/COLOR]"
-       version="1.0.4"
-       provider-name="Daily Sport">
+<addon id="plugin.video.Sport.center"
+       name="[COLOR orange]Sport Center[/COLOR]"
+       version="1.0.1"
+       provider-name="Iberika, Netai, DaQueenQueen">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -22,10 +22,10 @@
 
 
   <extension point="xbmc.addon.metadata">
-    <summary>Daily Sport</summary>
+    <summary>Sport Center</summary>
     <description>
 		
-	Vive todo el deporte en tu mediacenter via esta web!
+	Vive todo el deporte en tu mediacenter!
     </description>
 	    <platform>all</platform>
 	  <assets>
