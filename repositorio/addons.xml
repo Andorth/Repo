@@ -108,7 +108,7 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
 
 <addon id="plugin.video.Sport.center"
        name="[COLOR orange]Sport Center[/COLOR]"
-       version="1.0.2"
+       version="1.0.3"
        provider-name="Iberika, Netai, DaQueenQueen">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -129,10 +129,10 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
 
 
   <extension point="xbmc.addon.metadata">
-    <summary>Sport Center</summary>
+    <summary>Desarrollado Por Iberika, Netai, DaQueenQueen</summary>
     <description>
 
-	Vive todo el deporte en tu mediacenter!
+	Vive todo el deporte en tu mediacenter! Tambien puedes disfutar de la Tv en España.
     </description>
 	    <platform>all</platform>
 	  <assets>
