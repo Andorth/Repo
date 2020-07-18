@@ -108,7 +108,7 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
 
 <addon id="plugin.video.Sport.center"
        name="[COLOR orange]Sport Center[/COLOR]"
-       version="1.0.4"
+       version="1.0.5"
        provider-name="Iberika, Netai, DaQueenQueen">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
