@@ -108,7 +108,7 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
 
 <addon id="plugin.video.Sport.center"
        name="[COLOR orange]Sport Center[/COLOR]"
-       version="1.0.5"
+       version="1.0.6"
        provider-name="Iberika, Netai, DaQueenQueen">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -130,11 +130,10 @@ Grupo de soporte: https://t.me/joinchat/AAAAAE2GdVTL4ROaFnwGjA</description>
 
   <extension point="xbmc.addon.metadata">
     <summary>Desarrollado Por Iberika, Netai, DaQueenQueen</summary>
-    <description>
+    <description>Sin encriptado ... libre tu aprendes, nosotros aprendemos y disfrutamos! Siempre codigo libre!</description>
 
-	Vive todo el deporte en tu mediacenter! Tambien puedes disfutar de la Tv en España.
-	Nosotros no alojamos ningun tipo de contenido protegido con derechos de autor, Todo el contenido mostrado en este addon procede de Terceros disponibles en internet. Todo el contenido expuesto esta en paginas webs de internet. Son estas las resposables de la emision de los eventos mostrados. Nosotros no capturamos, ni emitimos, ni exponemos nigun evento. Solo enlazamos dicho contendido.
-    </description>
+	<disclaimer>
+  [COLOR blue]Nosotros, ni nuestros usuarios alojamos ningun contenido en este addon. Todo el contenido proviene de sitios web publicos. Disponible para todo el mundo de forma publica y gratuita.[/COLOR]</disclaimer>
 	    <platform>all</platform>
 	  <assets>
 		<icon>icon.png</icon>
